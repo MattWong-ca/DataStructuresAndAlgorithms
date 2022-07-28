@@ -8,7 +8,8 @@
 
 ### Sets
 
-### Hashes / Maps
+### Hashes / Maps / Dictionaries
+- Maps `keys` to specific values
 
 ### Binary Trees
 
@@ -18,6 +19,8 @@
 
 ## Algorithms
 ### Big-O Analysis
+- Iterating through array is `O(n)` (linear)
+- Taking 1st item of array is 'O(1)` (constant)
 
 ### Sorting / Searching / Binary Search
 
