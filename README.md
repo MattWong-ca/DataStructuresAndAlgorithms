@@ -25,15 +25,15 @@
 - Root --> Parent --> Child --> Leaf --> Sibling
 - Ex: Facebook comments, HTML pages
 - LL is type of tree but with single path
-#### Binary Tree
-- Each node can only have 0 1 or 2 nodes
-- Each child can only have 1 parent
-- Perfect Binary Tree: all nodes are full
-- Full Binary Tree: only 0 or 2 children
-#### Binary Search Tree
-- Lookup = O(logN)
-- Insert = O(logN)
-- Delete = O(logN)
+- Binary Tree
+  - Each node can only have 0 1 or 2 nodes
+  - Each child can only have 1 parent
+  - Perfect Binary Tree: all nodes are full
+  - Full Binary Tree: only 0 or 2 children
+- Binary Search Tree
+  - Lookup = O(logN)
+  - Insert = O(logN)
+  - Delete = O(logN)
 
 ### Heaps
 
