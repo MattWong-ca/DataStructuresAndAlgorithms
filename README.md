@@ -1,6 +1,12 @@
 # Data Structures + Algorithms
 ## Data Structures
 ### Arrays
+- Organizes item sequentially + contiguously
+- Smallest footprint of any DS
+  - Lookup = O(1)
+  - Push = O(1)
+  - Insert = O(n)
+  - Delete = O(n)
 
 ### Linked Lists
 - Made up of nodes (value + pointer to next element)
