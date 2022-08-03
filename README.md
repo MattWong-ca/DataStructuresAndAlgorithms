@@ -2,11 +2,16 @@
 ## Data Structures
 ### Arrays
 - Organizes item sequentially + contiguously
+- Like objects, with a length property and data property
 - Smallest footprint of any DS
   - Lookup = O(1)
   - Push = O(1)
   - Insert = O(n)
   - Delete = O(n)
+- Static array (fixed in size)
+  - Language like C++ allows you to manage memory, that's why it's sometimes faster 
+- Dynamic array (array is copied moved over to have room for extra space)
+  - Automanages memory, expands as you add more elements
 
 ### Linked Lists
 - Made up of nodes (value + pointer to next element)
