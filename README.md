@@ -12,6 +12,8 @@
   - Language like C++ allows you to manage memory, that's why it's sometimes faster 
 - Dynamic array (array is copied moved over to have room for extra space)
   - Automanages memory, expands as you add more elements
+- Pros: fast look ups, fast push/pop at end/start, ordered
+- Cons: slow inserts/deletes when not at end of array, fixed size if using static array
 
 ### Linked Lists
 - Made up of nodes (value + pointer to next element)
