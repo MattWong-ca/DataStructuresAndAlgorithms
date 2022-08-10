@@ -27,7 +27,26 @@
   - Insert = O(n)
   - Delete = O(n)
 
-### Stacks / Queues
+### Stacks
+- Plates --> Last In First Out
+- Eg. browsing history (undo)
+  - Lookup = O(n)
+  - Pop = O(1)
+  - Push = O(1)
+  - Peek = O(1)
+- Very important in language specific engines (eg. JS)
+- Languages modelled after stack architecture (function within function, keep popping until get to very beginning)
+- Linear (can traverse sequentially)
+- Can be built on top of lower-level DS like arrays/LL, therefore ensuring people only perform right operations
+
+### Queues
+- Lineup --> First In First Out
+- Eg. Printer, Uber
+  - Lookup = O(n)
+  - Enqueue = O(1)
+  - Dequeue = O(1) (removes 1st element)
+  - Peek = O(1)
+- Linear (can traverse sequentially)
 
 ### Sets
 
