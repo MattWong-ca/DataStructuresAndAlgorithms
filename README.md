@@ -38,6 +38,8 @@
 - Languages modelled after stack architecture (function within function, keep popping until get to very beginning)
 - Linear (can traverse sequentially)
 - Can be built on top of lower-level DS like arrays/LL, therefore ensuring people only perform right operations
+- Arrays allow cache locality, therefore faster since items are right next to each other
+- LL have extra memory due to pointers, but have more dynamic memory
 
 ### Queues
 - Lineup --> First In First Out
@@ -47,6 +49,9 @@
   - Dequeue = O(1) (removes 1st element)
   - Peek = O(1)
 - Linear (can traverse sequentially)
+- Never build with array, use LL
+  - Would need to shift indexes if deleting element in array (O(n))
+  - With LL, removing 1st element can be done by pointing head to 2nd element
 
 ### Sets
 
