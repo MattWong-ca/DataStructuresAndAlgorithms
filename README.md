@@ -81,7 +81,14 @@
 - Iterating through array is `O(n)` (linear)
 - Taking 1st item of array is `O(1)` (constant)
 
-### Sorting / Searching / Binary Search
+### Sorting
+
+### Searching / Binary Search
+- Linear Search O(n)
+  - Iterating through array to find element (best scenario is O(1) if in beginning, worst is O(n))
+- Binary Search O(log(n))
+  - Only if list is sorted
+  - Eg. start in middle, if desired # is greater, then remove left half of numbers and search right of middle value
 
 ### Divide + Conquer
 
@@ -92,3 +99,20 @@
 ### Recursion
 
 ### Graph Traversal (BFS + DFS)
+- Visits every element, therefore O(n)
+- Breadth First Search (BFS)
+  - Start with root node, then move left to right level by level
+  - If you know solution is not far from root
+  - If tree is very deep + solutions are rare
+  - For finding shortest path
+  - Pros: shortest path, closer nodes
+  - Cons: more memory
+- Depth First Search (DFS)
+  - Follows 1 branch until it reaches leaf node, then goes back up to ancestor to find other unexplored nodes
+  - DFS has lower memory requirement than BFS
+  - If tree is very wide
+  - If solutions are frequent but located deep
+  - For determining whether path exists between 2 nodes
+  - Pros: less memory (especially if you know desired value is in lower-level of tree), good at asking does path exist?
+  - Cons: can get slow
+  
