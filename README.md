@@ -26,6 +26,12 @@
   - Lookup = O(n)
   - Insert = O(n)
   - Delete = O(n)
+- Singly vs Doubly
+  - Singly is a fairly simple implementation compared to doubly
+  - Singly requires less memory, little faster
+  - Singly can't be iterated in reverse or traversed from back to front
+  - Use singly when you have less memory or memory is really expensive
+  
 
 ### Stacks
 - Plates --> Last In First Out
