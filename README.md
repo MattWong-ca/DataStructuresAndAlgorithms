@@ -31,6 +31,9 @@
   - Singly requires less memory, little faster
   - Singly can't be iterated in reverse or traversed from back to front
   - Use singly when you have less memory or memory is really expensive
+  - Doubly: when deleting prev node, no need to traverse from head (singly has no prev node)
+  - Doubly: requires more memory because of extra prev node property, also extra operations
+  - Doubly: good for when not much limitation on memory, when good operation (eg. search backwards) is desired
   
 
 ### Stacks
