@@ -89,6 +89,7 @@
 ### Big-O Analysis
 - Iterating through array is `O(n)` (linear)
 - Taking 1st item of array is `O(1)` (constant)
+- [What is Big O Notation Explained: Space and Time Complexity](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
 
 ### Sorting
 
@@ -125,3 +126,6 @@
   - Pros: less memory (especially if you know desired value is in lower-level of tree), good at asking does path exist?
   - Cons: can get slow
   
+## Resources
+- [Top 75 LeetCode Questions - blind](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+- [How I got in to Amazon, Microsoft, Google. All from studying these resources (Alex Nguyen)]()
